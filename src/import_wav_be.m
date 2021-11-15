@@ -15,4 +15,4 @@ data.time = seconds(data.time);
 data = table2timetable(data);
 
 label = fileToRead(end-8:end-7);
-subject = fileToRead(end-12:end-11);
+subject = fileToRead(1:2);
