@@ -13,28 +13,28 @@ figure
 t = tiledlayout(2,3);
 
 nexttile
-surf(features_train{1,2},'EdgeAlpha',0)
+surf(features_kismet{1,2},'EdgeAlpha',0)
 xlabel('Frame Sample')
 ylabel('Frequency Band')
 zlabel('Power')
 title('Approval')
 
 nexttile
-surf(features_train{1,3},'EdgeAlpha',0)
+surf(features_kismet{1,3},'EdgeAlpha',0)
 xlabel('Frame Sample')
 ylabel('Frequency Band')
 zlabel('Power')
 title('Attention')
 
 nexttile
-surf(features_train{1,4},'EdgeAlpha',0)
+surf(features_kismet{1,4},'EdgeAlpha',0)
 xlabel('Frame Sample')
 ylabel('Frequency Band')
 zlabel('Power')
 title('Prohibition')
 
 nexttile
-surf(features_train{1,2},'EdgeAlpha',0)
+surf(features_kismet{1,2},'EdgeAlpha',0)
 xlabel('Frame Sample')
 ylabel('Frequency Band')
 zlabel('Power')
@@ -42,7 +42,7 @@ view(0,90)
 title('Approval (2D)')
 
 nexttile
-surf(features_train{1,3},'EdgeAlpha',0)
+surf(features_kismet{1,3},'EdgeAlpha',0)
 xlabel('Frame Sample')
 ylabel('Frequency Band')
 zlabel('Power')
@@ -50,7 +50,7 @@ view(0,90)
 title('Attention (2D)')
 
 nexttile
-surf(features_train{1,4},'EdgeAlpha',0)
+surf(features_kismet{1,4},'EdgeAlpha',0)
 xlabel('Frame Sample')
 ylabel('Frequency Band')
 zlabel('Power')
